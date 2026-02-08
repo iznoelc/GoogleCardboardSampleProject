@@ -74,4 +74,7 @@ Navigate to File > Build Profiles
 
 Under "Run Device"
 - Plug your phone into your computer and hit refresh under Run Device until you see your phone.
-- Select your phone and then click Build and Run, it should build to your device and then run the example scene. 
+- Select your phone and then click Build and Run, it should build to your device and then run the example scene.
+
+### Source
+The instructions in this README are a modified version from the official Google Cardboard set up page, which can be found [here](https://developers.google.com/cardboard/develop/unity/quickstart).
