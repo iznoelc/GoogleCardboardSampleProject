@@ -4,7 +4,7 @@ Google Cardboard Sample Project Introduction to Virtual Reality at New College O
 # UNITY VERSION
 6000.3.2f1
 
-## Tutorial video on project set up can be found [here]().
+## Tutorial video on project set up can be found [here](https://www.youtube.com/watch?v=pf2dd4sg7XQ).
 
 ## PROJECT SET UP
 If you are having issues upon project installation, double check everything below:
@@ -31,10 +31,11 @@ and make sure you are under the **ANDROID** tab, NOT the Windows tab.
 ### Inside the project, under Assets > Plugins
 
 - In gradleTemplate.properties:
+  
   _Ensure the file says:_
 
 
-  > unityStreamingAssets=**STREAMING_ASSETS**
+  > unityStreamingAssets=\*\*STREAMING_ASSETS\*\*
   >
   > org.gradle.jvmargs=-Xmx4096M
   >
@@ -51,6 +52,7 @@ and make sure you are under the **ANDROID** tab, NOT the Windows tab.
   If not, replace it with the above ^
 
 - In mainTemplate.gradle:
+  
   _Ensure the following are under the dependencies section:_
 
   
@@ -61,6 +63,7 @@ and make sure you are under the **ANDROID** tab, NOT the Windows tab.
   > implementation 'com.google.android.material:material:1.12.0'
   >
   > implementation 'com.google.protobuf:protobuf-javalite:3.19.4'
+  > 
 ** DO NOT DELETE ANYTHING THAT IS ALREADY THERE
 
 ### Build Settings and Building
