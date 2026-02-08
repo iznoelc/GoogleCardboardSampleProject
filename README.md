@@ -35,13 +35,17 @@ and make sure you are under the **ANDROID** tab, NOT the Windows tab.
 
 
   > unityStreamingAssets=**STREAMING_ASSETS**
+  >
   > org.gradle.jvmargs=-Xmx4096M
-  > org.gradle.parallel=true
+  >
+  >  org.gradle.parallel=true
 
   > \# Fix: must be a real boolean value (Unity 6 / AGP 8+ will crash if blank)
+  >
   > android.enableR8=true
 
   > android.enableJetifier=true
+  >
   > android.useAndroidX=true
   
   If not, replace it with the above ^
@@ -51,8 +55,11 @@ and make sure you are under the **ANDROID** tab, NOT the Windows tab.
 
   
   > implementation 'androidx.appcompat:appcompat:1.6.1'
+  >
   > implementation 'com.google.android.gms:play-services-vision:20.1.3'
+  >
   > implementation 'com.google.android.material:material:1.12.0'
+  >
   > implementation 'com.google.protobuf:protobuf-javalite:3.19.4'
 ** DO NOT DELETE ANYTHING THAT IS ALREADY THERE
 
